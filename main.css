@@ -24,6 +24,13 @@ body, main {
     background-image: linear-gradient(180deg, var(--background-gradient-1), var(--background-gradient-2));
     background-repeat: repeat-x;
     z-index: 2;
+   
+}
+
+.bg-box{
+    position: absoulte;
+    top:50rem;
+    left:35rem
 }
 
 .content-wrapper {
@@ -32,7 +39,13 @@ body, main {
     width: 55rem;
     border-radius: 1rem;
     margin: 5.5rem 20rem;
-    z-index:5;
+    overflow: hidden;
+
+}
+.content-wrapper .bg-box{
+    position: absoulte;
+    top:18rem;
+    left:12.5rem;
 
 }
 
@@ -48,12 +61,11 @@ body, main {
     
     left: -5.3rem;
     bottom: -2rem;
-
 }
 .bg-box{
     position: absolute;
     top:10rem;
-    left:-2rem;
+    left:.5rem;
     /* display: none; */
 }
 
